@@ -1,0 +1,5 @@
+Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+- The requirements of this app were to build a functional app that used a database to store daily weights, a target weight, and a username/password for logging in. The daily weights should be able to be deleted by the user. The taret weight should only be able to be initially set and then edited. The user needs this was designed to address are tracking daily weight and assessing it against a target.
+
+How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?
+- Coding my app was a challenge. I started with the UI. Then I moved on to the database and the Java. I first attempted to employ fragments and instances. orate database functions that affected individual fragments. The second option I chose was to employ activities. This worked out much better as each activity had its own Java class where I could manipulate the display and data. I would apply this in the future because it made my job as the programmer much more straightforward
