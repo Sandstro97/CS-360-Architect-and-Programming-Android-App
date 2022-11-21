@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Weight_Chart">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:text="Date"
+                android:padding="3dip"
+                android:textSize="24dp"/>
+            <TextView
+                android:text="Current Weight"
+                android:padding="3dip"
+                android:layout_gravity="center"
+                android:textSize="24dp"/>
+            <TextView
+                android:text="Goal Weight"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textSize="24dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="xx/xx/xxxx"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_column="1"
+                android:text="xxx lbs."
+                android:padding="3dip"
+                android:layout_gravity="center"
+                android:textSize="16dp"/>
+            <TextView
+                android:text="xxx lbs."
+                android:gravity="right"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="xx/xx/xxxx"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_column="1"
+                android:text="xxx lbs."
+                android:padding="3dip"
+                android:layout_gravity="center"
+                android:textSize="16dp"/>
+            <TextView
+                android:text="xxx lbs."
+                android:gravity="right"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="xx/xx/xxxx"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+            <TextView
+                android:text="xxx lbs."
+                android:padding="3dip"
+                android:layout_gravity="center"
+                android:textSize="16dp"/>
+            <TextView
+                android:text="xxx lbs."
+                android:gravity="right"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="xx/xx/xxxx"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+            <TextView
+                android:text="xxx lbs."
+                android:padding="3dip"
+                android:layout_gravity="center"
+                android:textSize="16dp"/>
+            <TextView
+                android:text="xxx lbs."
+                android:gravity="right"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="xx/xx/xxxx"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_column="1"
+                android:text="xxx lbs."
+                android:padding="3dip"
+                android:layout_gravity="center"
+                android:textSize="16dp"/>
+            <TextView
+                android:text="xxx lbs."
+                android:gravity="right"
+                android:padding="3dip"
+                android:textSize="16dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="641dp" />
+
